@@ -16,7 +16,7 @@ kramdown:
 exclude: ['CNAME', 'README.md', 'LICENSE', '_site', 'dist', 'Gemfile', 'Gemfile.lock', 'blog.sh']
 
 domainUrl: ''
-baseurl: ''
+baseurl: '/blog'
 
 # 菜单
 # 必填字段 title: '文本' url: '链接'
@@ -74,3 +74,4 @@ links:
   - title: ContextMenuManager
     url: https://github.com/BluePointLilac/ContextMenuManager
   
+
