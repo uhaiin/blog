@@ -273,11 +273,11 @@ jdbc.password=password
 
 配置eclipse运行插件配置
 
-![idea.png](/assets/img/blog/20260203/eclipse-1.png)
+![idea.png](eclipse-1.png)
 
 新增以下配置：mybatis-generator:generate
 
-![idea.png](/assets/img/blog/20260203/eclipse-2.png)
+![idea.png](eclipse-2.png)
 
 以后需要运行时候只需要修改完`generatorConfig.xml`中的
 
@@ -294,7 +294,7 @@ jdbc.password=password
 
 双击执行插件
 
-![idea.png](/assets/img/blog/20260203/idea.png)
+![idea.png](idea.png)
 
 ### 使用方法
 
