@@ -1,10 +1,7 @@
 ---
-title: "GitHub Page 部署个人博客"
-tags:
-    - GitHub Page
-    - GitHub
-    - blog
-date: "2025-10-06"
+layout: mypost
+title: GitHub Page 部署个人博客
+categories: [GitHub]
 ---
 
 ## 快速入门
