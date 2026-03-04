@@ -1,6 +1,6 @@
 ---
 layout: mypost
-title: SpringBoot集成通用mapper和lombok
+title: SpringBoot 集成通用 mapper 和 lombok
 categories: [tk.mybatis,lombok,java]
 ---
 
