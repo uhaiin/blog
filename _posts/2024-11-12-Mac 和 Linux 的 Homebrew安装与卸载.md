@@ -1,6 +1,6 @@
 ---
 layout: mypost
-title: Mac 和 Linux 的 Homebrew安装与卸载（国内加速安装
+title: Mac 和 Linux 的 Homebrew安装与卸载
 categories: [linux]
 ---
 
