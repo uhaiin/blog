@@ -1,10 +1,8 @@
 ---
 layout: mypost
-title: Mac 和 Linux 的 Homebrew安装与卸载
+title: Mac 和 Linux 的 Homebrew 安装与卸载
 categories: [linux]
 ---
-
-# Mac 和 Linux 的 Homebrew安装与卸载
 
 [Homebrew官网](https://link.zhihu.com/?target=https%3A//brew.sh/)
 
