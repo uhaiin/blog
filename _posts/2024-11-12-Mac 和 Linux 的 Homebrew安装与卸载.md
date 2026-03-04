@@ -4,7 +4,7 @@ title: Mac 和 Linux 的 Homebrew安装与卸载
 categories: [linux]
 ---
 
-# Mac 和 Linux 的 Homebrew安装与卸载（国内加速安装）
+# Mac 和 Linux 的 Homebrew安装与卸载
 
 [Homebrew官网](https://link.zhihu.com/?target=https%3A//brew.sh/)
 
