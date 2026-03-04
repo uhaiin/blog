@@ -8,7 +8,7 @@ categories: [tk.mybatis,lombok,java]
 
 它不是 MyBatis 的替代品，而是**对 MyBatis 的增强工具**，让开发者专注于复杂业务 SQL，而不用重复写基础操作。
 
-## 核心优势
+### 核心优势
 
 | 优点                 | 说明                                                         |
 | -------------------- | ------------------------------------------------------------ |
@@ -19,7 +19,7 @@ categories: [tk.mybatis,lombok,java]
 | ✅ **支持多种数据库** | MySQL、Oracle、SQL Server、PostgreSQL 等主流数据库           |
 | ✅ **高度可扩展**     | 可自定义通用方法，支持插件机制                               |
 
-## 修改 Mybatis Generator
+### 修改 Mybatis Generator
 
 tk.mybatis 默认的生成器不带 lombok，需要修改本地仓库的以下jar包
 
@@ -79,7 +79,7 @@ public class LombokPlugin extends PluginAdapter {
 
 这样魔改后就支持生成的代码使用lombok插件
 
-## 完整POM文件
+### 完整POM文件
 
 > postgresql 版本，需要其他的数据库版本请自行替换依赖
 
@@ -196,9 +196,9 @@ public class LombokPlugin extends PluginAdapter {
 </project>
 ```
 
-## 配置文件
+### 配置文件
 
-### 数据库配置
+#### 数据库配置
 
 在 resources目录下新增：db.properties
 
@@ -210,7 +210,7 @@ jdbc.username=username
 jdbc.password=password
 ```
 
-### 生成配置
+#### 生成配置
 
 在 resources目录下新增：generatorConfig.xml
 
@@ -267,9 +267,9 @@ jdbc.password=password
 </generatorConfiguration>
 ```
 
-## 生成代码
+### 生成代码
 
-### eclipse
+#### eclipse
 
 配置eclipse运行插件配置
 
@@ -290,13 +290,13 @@ jdbc.password=password
 
 即可运行eclipse插件配置
 
-### idea
+#### idea
 
 双击执行插件
 
 ![idea.png](/assets/img/blog/20260203/idea.png)
 
-## 使用方法
+### 使用方法
 
 把生成的**实体类**、**Mapper.java**、**Mapper.xml**拷贝到项目中即可使用，注意项目中的pom文件需要引入以下依赖：
 
@@ -335,7 +335,7 @@ jdbc.password=password
 public class Application { }
 ```
 
-## 与 MyBatis-Plus 对比
+### 与 MyBatis-Plus 对比
 
 | 特性      | tk.mybatis        | MyBatis-Plus             |
 | --------- | ----------------- | ------------------------ |
@@ -348,7 +348,7 @@ public class Application { }
 
 > 💡 建议：新项目可优先考虑 **MyBatis-Plus**，但老项目或轻量级场景仍可使用
 
-## 总结
+### 总结
 
 **tk.mybatis 通用 Mapper 适合：**
 
